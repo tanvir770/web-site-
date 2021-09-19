@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+header{
+	width: 100%;
+	float: left;
+    margin: 28px 75px;
+    background-color: #f6f9f9;
+}
+.logo{
+	width: 35%;
+	float: left;
+}
+.menu{
+	width: 65%;
+	float: left;
+}
+.menu nav ul{
+	list-style: none;
+}
+.menu nav ul li{
+	display: inline-block;
+    margin: 10px 25px;	
+}
+.menu nav ul li a{
+	text-decoration: none;
+    color: #000000;
+}
+
+/*..banner section..*/
+
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	padding: 25px 0px;
+}
+.banner-main{
+	padding-top: 175px;
+	width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.banner-main h2{
+    font-size: 120px;
+    color: white;
+}
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+	width: 80%;
+	display: block;
+	margin: 30px auto;
+}
+.banner-main p{
+	color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.call-btn{
+	background-color: #f0f8ff00;
+    border: 2px solid #15a4fa;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+    padding: 12px 26px;	
+}
+.call-btn:hover{
+	cursor: pointer;
+	box-shadow: 2px 4px 8px;
+	color: blue;
+
+}
+.button-icon{
+	color: white;
+    margin: 120px 0px 20px;
+    font-size: 20px;
+}
+.button-icon:hover{
+
+}
+
+/*..information section..*/
+
+
+.information{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+.info{
+	text-align: center;
+
+}
+.info h2{
+	font-size: 40px;
+	margin: 70px 0px 30px;
+}
+
+.info p{
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 90px;
+}
+.information-icon{
+	width: 100%;
+	float: left;
+}
+.info-icon{
+	
+
+}
+.info-icon ul{
+	list-style: none;
+
+}
+.info-icon ul li{
+	width: 30%;
+	float: left;
+	display: contents;
+}
+.fa.fa-mobile{
+	font-size: 80px;
+	background-color: #5fc3ff;
+	color: white;
+	padding: 20px 35px;
+	margin: 50px 105px 41px 90px;
+}
+.fa.fa-paper-plane{
+	font-size: 60px;
+	background-color: #5fc3ff;
+	color: white;
+	padding: 20px;
+	margin: 50px 105px 41px 130px;
+}
+.fa.fa-bullhorn{
+	font-size: 60px;
+	background-color: #5fc3ff;
+	color: white;
+	padding: 20px;
+	margin: 50px 105px 41px 180px;
+}
+.feature{
+	width: 100%;
+	float: left;
+}
+.feature ul{
+	list-style: none;
+
+}
+.feature ul li{
+	width: 30%;
+	float: left;
+	margin: 0px 19px;
+	
+}
+
+.feature h2{
+	font-size: 22px;
+	margin: 30px 0px 28px;
+	
+}
+.feature p{
+	font-size: 15px;
+	line-height: 1.467;
+	margin-bottom: 65px;	
+}
